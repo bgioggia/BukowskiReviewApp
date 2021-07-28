@@ -22,9 +22,10 @@ def render_index():
 def render_beers():
     return render_template('beers.html')
 
+
 @app.route('/render_about')
 def render_about():
-    return render_template('beers.html')
+    return render_template('about.html')
 
 
 if __name__ == '__main__':
